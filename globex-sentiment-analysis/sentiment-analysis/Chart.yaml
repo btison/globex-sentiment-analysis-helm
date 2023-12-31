@@ -17,12 +17,12 @@ dependencies:
   - name: knative-kafkasink
     version: 0.1.0
     repository: file://knative-kafkasink
-  - name: knative-broker
-    version: 0.1.0
-    repository: file://knative-broker
-  - name: knative-kafkasource
-    version: 0.1.0
-    repository: file://knative-kafkasource
+  # - name: knative-broker
+  #   version: 0.1.0
+  #   repository: file://knative-broker
+  # - name: knative-kafkasource
+  #   version: 0.1.0
+  #   repository: file://knative-kafkasource
   - name: reviews-db
     version: 0.1.0
     repository: file://reviews-db
@@ -38,9 +38,9 @@ dependencies:
   - name: aiml-sentiment-reviews
     version: 0.1.0
     repository: file://aiml-sentiment-reviews
-  - name: knative-triggers
-    version: 0.1.0
-    repository: file://knative-triggers
+  # - name: knative-triggers
+  #   version: 0.1.0
+  #   repository: file://knative-triggers
   - name: knative-sinkbinding
     version: 0.1.0
     repository: file://knative-sinkbinding 
